@@ -1,0 +1,21 @@
+#content-container {
+  position: relative;
+  max-width: 82%;
+  height: 100%;
+  left: 18%;
+  top: 56px;
+  padding: 2rem 1rem 0 1rem;
+  background: rgb(249,249,249);
+  z-index: 5;
+}
+
+.header-info {
+  color: #272727;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.latest-posts .header-info {
+  margin-top: 1rem;
+}

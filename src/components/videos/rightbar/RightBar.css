@@ -1,0 +1,39 @@
+
+/* Float four cols side by side */
+.col {
+    float: right;
+    width: 45%;
+    height: max-content;
+    padding: 0 0px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .roe {
+      margin: 0 0px;
+      margin-top: 20px;
+}
+  
+  /* Clear floats after the columns */
+  .roe:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: max-content;
+  }

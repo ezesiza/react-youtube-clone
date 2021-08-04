@@ -1,0 +1,8 @@
+/* Main Container */
+#main-container {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    width: 100%;
+    line-height: 1.2;
+  }

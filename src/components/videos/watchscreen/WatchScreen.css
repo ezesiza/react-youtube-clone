@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .watchScreen-player {
+    height: 60vh;
+    background-color: #353946;
+    width: 100%;
+    margin-bottom: 2rem;
+ }
+ 
+ @media (max-width: 600px) {
+    .watchScree-player {
+       height: 35vh;
+    }
+ }
+
+  .row{
+      position: relative;
+      /* padding-left: 82px; */
+      /* margin:-5px; */
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

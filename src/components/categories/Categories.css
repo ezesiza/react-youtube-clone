@@ -1,0 +1,47 @@
+#container {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 0 80%;
+    position: fixed;
+    left: 18%;
+    top: 56px;
+    z-index: 10;
+  }
+
+  .recommendations {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    background: rgba(255, 255, 255, 0.98);
+    padding: 0.9rem;
+    position: sticky;
+    top: 56px;
+    right: 0;
+    left: 18%;
+    z-index: 100;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);  
+  }
+  .recommendations a {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #030303;
+    background: #0000000D;
+    padding: 0.4rem 0.8rem;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 1rem; 
+  }
+  
+  .recommendations a:hover {
+    background: rgba(0,0,0,0.1);
+  }
+  
+  .recommendations a:first-child {
+    color: #fff;
+    background-color: #606060;
+  }
